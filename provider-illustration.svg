@@ -1,0 +1,41 @@
+<svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="130" cy="100" r="90" fill="#FFF5F0" opacity="0.6"/>
+  
+  <!-- Service provider person -->
+  <g transform="translate(130, 100)">
+    <!-- Provider body -->
+    <ellipse cx="0" cy="25" rx="20" ry="30" fill="#FF6B2B"/>
+    <!-- Provider head -->
+    <circle cx="0" cy="-15" r="18" fill="#FFD4B8"/>
+    <!-- Provider hat/cap (professional) -->
+    <path d="M-15,-25 Q-15,-30 0,-30 Q15,-30 15,-25 L15,-20 L-15,-20 Z" fill="#2563EB"/>
+    <!-- Provider arms -->
+    <ellipse cx="-25" cy="20" rx="8" ry="25" fill="#FFD4B8"/>
+    <ellipse cx="25" cy="20" rx="8" ry="25" fill="#FFD4B8"/>
+    
+    <!-- Pet 1 - Dog on left -->
+    <g transform="translate(-50, 30)">
+      <ellipse cx="0" cy="0" rx="15" ry="20" fill="#8B4513"/>
+      <circle cx="-3" cy="-5" r="4" fill="#000"/>
+      <circle cx="3" cy="-5" r="4" fill="#000"/>
+      <ellipse cx="0" cy="2" rx="3" ry="2" fill="#FF6B2B"/>
+    </g>
+    
+    <!-- Pet 2 - Cat on right -->
+    <g transform="translate(50, 30)">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="#FFA500"/>
+      <circle cx="-2" cy="-4" r="3" fill="#000"/>
+      <circle cx="2" cy="-4" r="3" fill="#000"/>
+      <path d="M-3,2 Q0,4 3,2" stroke="#000" stroke-width="1" fill="none"/>
+    </g>
+    
+    <!-- Heart icon above provider (caring) -->
+    <path d="M-20,-40 Q-20,-45 -15,-45 Q-10,-45 -10,-40 Q-10,-35 0,-25 Q10,-35 10,-40 Q10,-45 15,-45 Q20,-45 20,-40 Q20,-30 0,-15 Q-20,-30 -20,-40 Z" fill="#FF6B2B" opacity="0.8"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="8" fill="#FF6B2B" opacity="0.3"/>
+  <circle cx="210" cy="150" r="6" fill="#FF6B2B" opacity="0.3"/>
+  <circle cx="230" cy="60" r="5" fill="#FF6B2B" opacity="0.3"/>
+</svg>
